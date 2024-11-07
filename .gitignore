@@ -1,9 +1,10 @@
 *.db
 *.session
+.idea
+.idea/*
 *.session-journal
 src/__pycache__/
 src/model/__pycache__/
-.idea
 logs/*
 !logs/.gitkeep
 # postgresql
@@ -22,7 +23,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-.idea/
 build/
 develop-eggs/
 dist/
